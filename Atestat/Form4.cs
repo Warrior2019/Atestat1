@@ -1,0 +1,35 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Atestat
+{
+    public partial class F4 : Form
+    {
+        public F4()
+        {
+            InitializeComponent();
+        }
+
+        private void F4_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Istoric_text_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Istoric_text.LoadFile("Steaua Bucuresti.rtf");
+        }
+    }
+}
