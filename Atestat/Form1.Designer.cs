@@ -35,7 +35,8 @@ namespace Atestat
             // 
             // Inceput
             // 
-            this.Inceput.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.Inceput.BackColor = System.Drawing.Color.Transparent;
+            this.Inceput.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.Inceput.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Inceput.Location = new System.Drawing.Point(12, 254);
             this.Inceput.Name = "Inceput";
@@ -49,9 +50,10 @@ namespace Atestat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Blue;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(307, 294);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(318, 308);
             this.Controls.Add(this.Inceput);
             this.DoubleBuffered = true;
             this.Name = "Incepe";

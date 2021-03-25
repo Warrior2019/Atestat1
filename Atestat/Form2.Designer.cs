@@ -29,16 +29,16 @@ namespace Atestat
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F2));
             this.Istoric = new System.Windows.Forms.Button();
-            this.Prezente = new System.Windows.Forms.Button();
-            this.Goluri = new System.Windows.Forms.Button();
             this.Quiz = new System.Windows.Forms.Button();
             this.Sevilla86 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Istoric
             // 
-            this.Istoric.Location = new System.Drawing.Point(43, 40);
+            this.Istoric.Location = new System.Drawing.Point(92, 133);
             this.Istoric.Name = "Istoric";
             this.Istoric.Size = new System.Drawing.Size(85, 39);
             this.Istoric.TabIndex = 0;
@@ -46,27 +46,9 @@ namespace Atestat
             this.Istoric.UseVisualStyleBackColor = true;
             this.Istoric.Click += new System.EventHandler(this.Istoric_Click);
             // 
-            // Prezente
-            // 
-            this.Prezente.Location = new System.Drawing.Point(225, 40);
-            this.Prezente.Name = "Prezente";
-            this.Prezente.Size = new System.Drawing.Size(85, 39);
-            this.Prezente.TabIndex = 1;
-            this.Prezente.Text = "Prezente";
-            this.Prezente.UseVisualStyleBackColor = true;
-            // 
-            // Goluri
-            // 
-            this.Goluri.Location = new System.Drawing.Point(134, 40);
-            this.Goluri.Name = "Goluri";
-            this.Goluri.Size = new System.Drawing.Size(85, 39);
-            this.Goluri.TabIndex = 3;
-            this.Goluri.Text = "Goluri";
-            this.Goluri.UseVisualStyleBackColor = true;
-            // 
             // Quiz
             // 
-            this.Quiz.Location = new System.Drawing.Point(407, 40);
+            this.Quiz.Location = new System.Drawing.Point(92, 359);
             this.Quiz.Name = "Quiz";
             this.Quiz.Size = new System.Drawing.Size(75, 39);
             this.Quiz.TabIndex = 5;
@@ -76,7 +58,7 @@ namespace Atestat
             // 
             // Sevilla86
             // 
-            this.Sevilla86.Location = new System.Drawing.Point(316, 40);
+            this.Sevilla86.Location = new System.Drawing.Point(676, 331);
             this.Sevilla86.Name = "Sevilla86";
             this.Sevilla86.Size = new System.Drawing.Size(85, 39);
             this.Sevilla86.TabIndex = 6;
@@ -84,16 +66,28 @@ namespace Atestat
             this.Sevilla86.UseVisualStyleBackColor = true;
             this.Sevilla86.Click += new System.EventHandler(this.Sevilla86_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(676, 133);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(85, 39);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Prezențe și goluri";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // F2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(856, 490);
+            this.BackColor = System.Drawing.Color.Red;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(854, 559);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.Sevilla86);
             this.Controls.Add(this.Quiz);
-            this.Controls.Add(this.Goluri);
-            this.Controls.Add(this.Prezente);
             this.Controls.Add(this.Istoric);
+            this.DoubleBuffered = true;
             this.Name = "F2";
             this.Text = "Fereastra2";
             this.Load += new System.EventHandler(this.F2_Load);
@@ -104,9 +98,8 @@ namespace Atestat
         #endregion
 
         private System.Windows.Forms.Button Istoric;
-        private System.Windows.Forms.Button Prezente;
-        private System.Windows.Forms.Button Goluri;
         private System.Windows.Forms.Button Quiz;
         private System.Windows.Forms.Button Sevilla86;
+        private System.Windows.Forms.Button button1;
     }
 }

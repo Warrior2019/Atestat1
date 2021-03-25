@@ -28,6 +28,7 @@ namespace Atestat
             if ((cb1.Checked && cb3.Checked)) cate++;
             if (rb2.Checked) cate++;
             if (rb7.Checked) cate++;
+            if (rb11.Checked) cate++;
             MessageBox.Show("Ai răsapun corect la "+cate.ToString()+" întrebări");
         }
     }

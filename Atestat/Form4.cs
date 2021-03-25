@@ -31,5 +31,10 @@ namespace Atestat
         {
             Istoric_text.LoadFile("Steaua Bucuresti.rtf");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Istoric_text.LoadFile("Recorduri.rtf");
+        }
     }
 }
