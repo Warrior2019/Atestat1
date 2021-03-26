@@ -59,6 +59,7 @@ namespace Atestat
             // 
             // gb1
             // 
+            this.gb1.BackColor = System.Drawing.SystemColors.Control;
             this.gb1.Controls.Add(this.cb5);
             this.gb1.Controls.Add(this.cb4);
             this.gb1.Controls.Add(this.cb3);
@@ -237,7 +238,7 @@ namespace Atestat
             // 
             // Rezultat
             // 
-            this.Rezultat.Location = new System.Drawing.Point(264, 387);
+            this.Rezultat.Location = new System.Drawing.Point(207, 292);
             this.Rezultat.Name = "Rezultat";
             this.Rezultat.Size = new System.Drawing.Size(200, 23);
             this.Rezultat.TabIndex = 3;
@@ -251,7 +252,7 @@ namespace Atestat
             this.groupBox1.Controls.Add(this.rb11);
             this.groupBox1.Controls.Add(this.rb10);
             this.groupBox1.Controls.Add(this.rb9);
-            this.groupBox1.Location = new System.Drawing.Point(12, 185);
+            this.groupBox1.Location = new System.Drawing.Point(516, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(164, 167);
             this.groupBox1.TabIndex = 4;
@@ -306,7 +307,8 @@ namespace Atestat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(695, 450);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.Rezultat);
             this.Controls.Add(this.gb3);

@@ -30,21 +30,18 @@ namespace Atestat
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Incepe));
-            this.Inceput = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // Inceput
+            // button1
             // 
-            this.Inceput.BackColor = System.Drawing.Color.Transparent;
-            this.Inceput.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Inceput.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Inceput.Location = new System.Drawing.Point(12, 254);
-            this.Inceput.Name = "Inceput";
-            this.Inceput.Size = new System.Drawing.Size(283, 28);
-            this.Inceput.TabIndex = 0;
-            this.Inceput.Text = "Apasa aici pentru a incepe";
-            this.Inceput.UseVisualStyleBackColor = false;
-            this.Inceput.Click += new System.EventHandler(this.Inceput_Click);
+            this.button1.Location = new System.Drawing.Point(43, 273);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(232, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Apasă aici pentru a începe";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Incepe
             // 
@@ -54,7 +51,7 @@ namespace Atestat
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(318, 308);
-            this.Controls.Add(this.Inceput);
+            this.Controls.Add(this.button1);
             this.DoubleBuffered = true;
             this.Name = "Incepe";
             this.Text = "Inceput";
@@ -65,7 +62,7 @@ namespace Atestat
 
         #endregion
 
-        private System.Windows.Forms.Button Inceput;
+        private System.Windows.Forms.Button button1;
     }
 }
 

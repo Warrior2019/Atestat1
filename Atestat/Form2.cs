@@ -41,5 +41,11 @@ namespace Atestat
             F5.Show();
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form F6 = new F6();
+            F6.Show();
+        }
     }
 }
