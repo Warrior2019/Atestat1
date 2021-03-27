@@ -38,9 +38,9 @@ namespace Atestat
             // 
             // Istoric
             // 
-            this.Istoric.Location = new System.Drawing.Point(92, 133);
+            this.Istoric.Location = new System.Drawing.Point(1, 1);
             this.Istoric.Name = "Istoric";
-            this.Istoric.Size = new System.Drawing.Size(85, 39);
+            this.Istoric.Size = new System.Drawing.Size(46, 24);
             this.Istoric.TabIndex = 0;
             this.Istoric.Text = "Istoric";
             this.Istoric.UseVisualStyleBackColor = true;

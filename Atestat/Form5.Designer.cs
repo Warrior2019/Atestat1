@@ -30,29 +30,22 @@ namespace Atestat
         private void InitializeComponent()
         {
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.Sevilla86 = new System.Windows.Forms.RichTextBox();
+            this.pb_Sevilla86 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Sevilla86)).BeginInit();
             this.SuspendLayout();
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(161, 418);
+            this.button2.Location = new System.Drawing.Point(163, 418);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 20);
             this.button2.TabIndex = 1;
             this.button2.Text = "Istoric";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(480, 418);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(104, 20);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Echipa de start";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Sevilla86
             // 
@@ -62,25 +55,62 @@ namespace Atestat
             this.Sevilla86.Size = new System.Drawing.Size(776, 400);
             this.Sevilla86.TabIndex = 3;
             this.Sevilla86.Text = "";
+            this.Sevilla86.Visible = false;
             this.Sevilla86.TextChanged += new System.EventHandler(this.Sevilla86_TextChanged);
+            // 
+            // pb_Sevilla86
+            // 
+            this.pb_Sevilla86.Location = new System.Drawing.Point(12, 12);
+            this.pb_Sevilla86.Name = "pb_Sevilla86";
+            this.pb_Sevilla86.Size = new System.Drawing.Size(776, 400);
+            this.pb_Sevilla86.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pb_Sevilla86.TabIndex = 4;
+            this.pb_Sevilla86.TabStop = false;
+            this.pb_Sevilla86.Visible = false;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(326, 418);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 20);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Echipa";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(489, 419);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 6;
+            this.button5.Text = "Iesire";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // F5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.pb_Sevilla86);
             this.Controls.Add(this.Sevilla86);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Name = "F5";
             this.Text = "Form5";
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Sevilla86)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.RichTextBox Sevilla86;
+        private System.Windows.Forms.PictureBox pb_Sevilla86;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button5;
     }
 }

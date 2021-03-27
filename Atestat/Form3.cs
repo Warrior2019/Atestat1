@@ -22,14 +22,19 @@ namespace Atestat
         {
 
         }
-
-        private void Rezultat_Click(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
             if ((cb1.Checked && cb3.Checked)) cate++;
             if (rb2.Checked) cate++;
             if (rb7.Checked) cate++;
             if (rb11.Checked) cate++;
-            MessageBox.Show("Ai răsapun corect la "+cate.ToString()+" întrebări");
+            MessageBox.Show("Ai răsapun corect la " + cate.ToString() + " întrebări");
         }
+        private void label1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        
     }
 }

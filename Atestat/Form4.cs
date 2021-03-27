@@ -36,5 +36,15 @@ namespace Atestat
         {
             Istoric_text.LoadFile("Recorduri.rtf");
         }
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Istoric_text.LoadFile("Ghencea.rtf");
+        }
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        
     }
 }
