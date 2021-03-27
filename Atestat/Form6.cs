@@ -44,5 +44,10 @@ namespace Atestat
             Image image = Image.FromFile("Gica_Hagi.jpg");
             pb.Image = image;
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

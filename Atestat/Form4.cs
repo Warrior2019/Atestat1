@@ -36,5 +36,10 @@ namespace Atestat
         {
             Istoric_text.LoadFile("Recorduri.rtf");
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

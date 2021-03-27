@@ -35,6 +35,7 @@ namespace Atestat
             this.button5 = new System.Windows.Forms.Button();
             this.rtb = new System.Windows.Forms.RichTextBox();
             this.pb = new System.Windows.Forms.PictureBox();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pb)).BeginInit();
             this.SuspendLayout();
             // 
@@ -100,11 +101,23 @@ namespace Atestat
             this.pb.TabIndex = 6;
             this.pb.TabStop = false;
             // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Viner Hand ITC", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(572, 12);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(134, 23);
+            this.button3.TabIndex = 7;
+            this.button3.Text = "Iesire";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // F6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.pb);
             this.Controls.Add(this.rtb);
             this.Controls.Add(this.button5);
@@ -126,5 +139,6 @@ namespace Atestat
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.RichTextBox rtb;
         private System.Windows.Forms.PictureBox pb;
+        private System.Windows.Forms.Button button3;
     }
 }

@@ -47,10 +47,11 @@ namespace Atestat
             this.rb5 = new System.Windows.Forms.RadioButton();
             this.Rezultat = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rb9 = new System.Windows.Forms.RadioButton();
-            this.rb10 = new System.Windows.Forms.RadioButton();
-            this.rb11 = new System.Windows.Forms.RadioButton();
             this.rb12 = new System.Windows.Forms.RadioButton();
+            this.rb11 = new System.Windows.Forms.RadioButton();
+            this.rb10 = new System.Windows.Forms.RadioButton();
+            this.rb9 = new System.Windows.Forms.RadioButton();
+            this.label1 = new System.Windows.Forms.Label();
             this.gb1.SuspendLayout();
             this.gb2.SuspendLayout();
             this.gb3.SuspendLayout();
@@ -238,7 +239,7 @@ namespace Atestat
             // 
             // Rezultat
             // 
-            this.Rezultat.Location = new System.Drawing.Point(207, 292);
+            this.Rezultat.Location = new System.Drawing.Point(252, 269);
             this.Rezultat.Name = "Rezultat";
             this.Rezultat.Size = new System.Drawing.Size(200, 23);
             this.Rezultat.TabIndex = 3;
@@ -259,27 +260,16 @@ namespace Atestat
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "În ce an a câștigat Steaua Cupa Campionilor Europeni?";
             // 
-            // rb9
+            // rb12
             // 
-            this.rb9.AutoSize = true;
-            this.rb9.Location = new System.Drawing.Point(6, 34);
-            this.rb9.Name = "rb9";
-            this.rb9.Size = new System.Drawing.Size(49, 17);
-            this.rb9.TabIndex = 1;
-            this.rb9.TabStop = true;
-            this.rb9.Text = "1985";
-            this.rb9.UseVisualStyleBackColor = true;
-            // 
-            // rb10
-            // 
-            this.rb10.AutoSize = true;
-            this.rb10.Location = new System.Drawing.Point(6, 57);
-            this.rb10.Name = "rb10";
-            this.rb10.Size = new System.Drawing.Size(49, 17);
-            this.rb10.TabIndex = 2;
-            this.rb10.TabStop = true;
-            this.rb10.Text = "1989";
-            this.rb10.UseVisualStyleBackColor = true;
+            this.rb12.AutoSize = true;
+            this.rb12.Location = new System.Drawing.Point(6, 103);
+            this.rb12.Name = "rb12";
+            this.rb12.Size = new System.Drawing.Size(49, 17);
+            this.rb12.TabIndex = 4;
+            this.rb12.TabStop = true;
+            this.rb12.Text = "1987";
+            this.rb12.UseVisualStyleBackColor = true;
             // 
             // rb11
             // 
@@ -292,16 +282,37 @@ namespace Atestat
             this.rb11.Text = "1986";
             this.rb11.UseVisualStyleBackColor = true;
             // 
-            // rb12
+            // rb10
             // 
-            this.rb12.AutoSize = true;
-            this.rb12.Location = new System.Drawing.Point(6, 103);
-            this.rb12.Name = "rb12";
-            this.rb12.Size = new System.Drawing.Size(49, 17);
-            this.rb12.TabIndex = 4;
-            this.rb12.TabStop = true;
-            this.rb12.Text = "1987";
-            this.rb12.UseVisualStyleBackColor = true;
+            this.rb10.AutoSize = true;
+            this.rb10.Location = new System.Drawing.Point(6, 57);
+            this.rb10.Name = "rb10";
+            this.rb10.Size = new System.Drawing.Size(49, 17);
+            this.rb10.TabIndex = 2;
+            this.rb10.TabStop = true;
+            this.rb10.Text = "1989";
+            this.rb10.UseVisualStyleBackColor = true;
+            // 
+            // rb9
+            // 
+            this.rb9.AutoSize = true;
+            this.rb9.Location = new System.Drawing.Point(6, 34);
+            this.rb9.Name = "rb9";
+            this.rb9.Size = new System.Drawing.Size(49, 17);
+            this.rb9.TabIndex = 1;
+            this.rb9.TabStop = true;
+            this.rb9.Text = "1985";
+            this.rb9.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(570, 279);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(32, 13);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Iesire";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // F3
             // 
@@ -309,6 +320,7 @@ namespace Atestat
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(695, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.Rezultat);
             this.Controls.Add(this.gb3);
@@ -326,6 +338,7 @@ namespace Atestat
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -353,5 +366,6 @@ namespace Atestat
         private System.Windows.Forms.RadioButton rb11;
         private System.Windows.Forms.RadioButton rb10;
         private System.Windows.Forms.RadioButton rb9;
+        private System.Windows.Forms.Label label1;
     }
 }

@@ -19,17 +19,28 @@ namespace Atestat
 
         private void button2_Click(object sender, EventArgs e)
         {
+            Sevilla86.Visible = true;
             Sevilla86.LoadFile("Sevilla86.rtf");
+            pb_Sevilla86.Visible = false;
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Sevilla86.LoadFile("Echipa_de_start.rtf");
-        }
 
         private void Sevilla86_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            pb_Sevilla86.Visible = true;
+            Image image = Image.FromFile("Echipa_Sevilla86.jpg");
+            pb_Sevilla86.Image = image;
+            Sevilla86.Visible = false;
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
