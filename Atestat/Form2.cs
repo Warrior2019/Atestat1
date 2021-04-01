@@ -26,6 +26,7 @@ namespace Atestat
         {
             Form F4 = new F4();
             F4.Show();
+            //Istoric_text.LoadFile("Steaua Bucuresti.rtf");
         }
 
         private void Quiz_Click(object sender, EventArgs e)
