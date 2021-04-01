@@ -51,7 +51,7 @@ namespace Atestat
             this.rb10 = new System.Windows.Forms.RadioButton();
             this.rb9 = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.gb1.SuspendLayout();
             this.gb2.SuspendLayout();
             this.gb3.SuspendLayout();
@@ -304,15 +304,15 @@ namespace Atestat
             this.label1.Text = "Iesire";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label2
+            // button1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(264, 353);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(157, 13);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Apasă pentru a vedea rezultatul";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.button1.Location = new System.Drawing.Point(317, 255);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(76, 27);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Apasă pentru a vedea rezultatul";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // F3
             // 
@@ -320,7 +320,7 @@ namespace Atestat
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(695, 450);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.gb3);
@@ -366,6 +366,6 @@ namespace Atestat
         private System.Windows.Forms.RadioButton rb9;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.CheckBox cb1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button1;
     }
 }
