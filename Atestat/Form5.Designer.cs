@@ -34,6 +34,7 @@ namespace Atestat
             this.pb_Sevilla86 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Sevilla86)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,7 +53,7 @@ namespace Atestat
             this.Sevilla86.Location = new System.Drawing.Point(12, 12);
             this.Sevilla86.Name = "Sevilla86";
             this.Sevilla86.ReadOnly = true;
-            this.Sevilla86.Size = new System.Drawing.Size(776, 400);
+            this.Sevilla86.Size = new System.Drawing.Size(776, 401);
             this.Sevilla86.TabIndex = 3;
             this.Sevilla86.Text = "";
             this.Sevilla86.Visible = false;
@@ -62,7 +63,7 @@ namespace Atestat
             // 
             this.pb_Sevilla86.Location = new System.Drawing.Point(12, 12);
             this.pb_Sevilla86.Name = "pb_Sevilla86";
-            this.pb_Sevilla86.Size = new System.Drawing.Size(776, 400);
+            this.pb_Sevilla86.Size = new System.Drawing.Size(776, 370);
             this.pb_Sevilla86.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pb_Sevilla86.TabIndex = 4;
             this.pb_Sevilla86.TabStop = false;
@@ -89,11 +90,23 @@ namespace Atestat
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(263, 385);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(301, 26);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Sus: Boloni, Belodedici, Iovan, Pițurcă, Bumbescu, Duckadam\r\nJos:  Majearu, Lăcăt" +
+    "uș, Bălan, Blaint, Bărbulescu\r\n";
+            this.label1.Visible = false;
+            // 
             // F5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pb_Sevilla86);
@@ -103,6 +116,7 @@ namespace Atestat
             this.Text = "Form5";
             ((System.ComponentModel.ISupportInitialize)(this.pb_Sevilla86)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -112,5 +126,6 @@ namespace Atestat
         private System.Windows.Forms.PictureBox pb_Sevilla86;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Label label1;
     }
 }

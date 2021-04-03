@@ -19,6 +19,7 @@ namespace Atestat
 
         private void button2_Click(object sender, EventArgs e)
         {
+            label1.Visible = false;
             Sevilla86.Visible = true;
             Sevilla86.LoadFile("Sevilla86.rtf");
             pb_Sevilla86.Visible = false;
@@ -30,6 +31,7 @@ namespace Atestat
 
         private void button1_Click(object sender, EventArgs e)
         {
+            label1.Visible = true;
             pb_Sevilla86.Visible = true;
             Image image = Image.FromFile("Steaua_Sevilla86.jpg");
             pb_Sevilla86.Image = image;
