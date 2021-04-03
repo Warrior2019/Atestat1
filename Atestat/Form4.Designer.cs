@@ -58,7 +58,7 @@ namespace Atestat
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(534, 444);
+            this.button2.Location = new System.Drawing.Point(495, 444);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(103, 23);
             this.button2.TabIndex = 2;

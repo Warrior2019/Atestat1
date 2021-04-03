@@ -21,7 +21,7 @@ namespace Atestat
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
             Form F2 = new F2();
             F2.Show();

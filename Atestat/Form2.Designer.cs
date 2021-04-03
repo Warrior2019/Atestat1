@@ -39,6 +39,7 @@ namespace Atestat
             // Istoric
             // 
             this.Istoric.AutoSize = true;
+            this.Istoric.BackColor = System.Drawing.Color.Transparent;
             this.Istoric.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Istoric.Location = new System.Drawing.Point(12, 9);
             this.Istoric.Name = "Istoric";
@@ -50,6 +51,7 @@ namespace Atestat
             // Quiz
             // 
             this.Quiz.AutoSize = true;
+            this.Quiz.BackColor = System.Drawing.Color.Transparent;
             this.Quiz.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Quiz.Location = new System.Drawing.Point(57, 9);
             this.Quiz.Name = "Quiz";
@@ -61,6 +63,7 @@ namespace Atestat
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(95, 9);
             this.label1.Name = "label1";
@@ -72,6 +75,7 @@ namespace Atestat
             // Sevilla86
             // 
             this.Sevilla86.AutoSize = true;
+            this.Sevilla86.BackColor = System.Drawing.Color.Transparent;
             this.Sevilla86.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Sevilla86.Location = new System.Drawing.Point(209, 9);
             this.Sevilla86.Name = "Sevilla86";
@@ -94,7 +98,6 @@ namespace Atestat
             this.Controls.Add(this.Istoric);
             this.DoubleBuffered = true;
             this.Name = "F2";
-            this.Text = "Fereastra2";
             this.Load += new System.EventHandler(this.F2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

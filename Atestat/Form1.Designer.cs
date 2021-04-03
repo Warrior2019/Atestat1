@@ -30,18 +30,18 @@ namespace Atestat
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Incepe));
-            this.button1 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // label2
             // 
-            this.button1.Location = new System.Drawing.Point(43, 273);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(232, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Apasă aici pentru a începe";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(1, -1);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(317, 313);
+            this.label2.TabIndex = 13;
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // Incepe
             // 
@@ -51,18 +51,16 @@ namespace Atestat
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(318, 308);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label2);
             this.DoubleBuffered = true;
             this.Name = "Incepe";
-            this.Text = "Inceput";
             this.Load += new System.EventHandler(this.Incepe_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label2;
     }
 }
 

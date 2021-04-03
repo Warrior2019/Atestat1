@@ -125,7 +125,6 @@ namespace Atestat
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "F6";
-            this.Text = "Form6";
             ((System.ComponentModel.ISupportInitialize)(this.pb)).EndInit();
             this.ResumeLayout(false);
 

@@ -50,6 +50,7 @@ namespace Atestat
             // 
             // Sevilla86
             // 
+            this.Sevilla86.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.Sevilla86.Location = new System.Drawing.Point(12, 12);
             this.Sevilla86.Name = "Sevilla86";
             this.Sevilla86.ReadOnly = true;
@@ -113,7 +114,6 @@ namespace Atestat
             this.Controls.Add(this.Sevilla86);
             this.Controls.Add(this.button2);
             this.Name = "F5";
-            this.Text = "Form5";
             ((System.ComponentModel.ISupportInitialize)(this.pb_Sevilla86)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
