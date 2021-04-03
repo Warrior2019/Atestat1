@@ -23,13 +23,6 @@ namespace Atestat
 
         }
 
-        
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             if ((cb1.Checked && cb3.Checked)) cate++;
@@ -37,6 +30,11 @@ namespace Atestat
             if (rb7.Checked) cate++;
             if (rb11.Checked) cate++;
             MessageBox.Show("Ai răsapun corect la " + cate.ToString() + " întrebări");
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

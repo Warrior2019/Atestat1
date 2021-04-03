@@ -308,7 +308,7 @@ namespace Atestat
             // 
             this.button1.Location = new System.Drawing.Point(317, 255);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(76, 27);
+            this.button1.Size = new System.Drawing.Size(175, 27);
             this.button1.TabIndex = 7;
             this.button1.Text = "Apasă pentru a vedea rezultatul";
             this.button1.UseVisualStyleBackColor = true;

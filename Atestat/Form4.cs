@@ -24,7 +24,7 @@ namespace Atestat
 
         private void Istoric_text_TextChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -37,16 +37,9 @@ namespace Atestat
             Istoric_text.LoadFile("Recorduri.rtf");
         }
 
-        
-
         private void button3_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            Istoric_text.LoadFile("Ghencea.rtf");
         }
     }
 }
