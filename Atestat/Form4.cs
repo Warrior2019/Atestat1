@@ -44,6 +44,7 @@ namespace Atestat
 
         private void button4_Click(object sender, EventArgs e)
         {
+            //asa
             Istoric_text.LoadFile("Ghencea.rtf");
         }
     }
