@@ -39,9 +39,10 @@ namespace Atestat
             // Istoric
             // 
             this.Istoric.AutoSize = true;
-            this.Istoric.Location = new System.Drawing.Point(89, 159);
+            this.Istoric.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Istoric.Location = new System.Drawing.Point(12, 9);
             this.Istoric.Name = "Istoric";
-            this.Istoric.Size = new System.Drawing.Size(35, 13);
+            this.Istoric.Size = new System.Drawing.Size(39, 15);
             this.Istoric.TabIndex = 8;
             this.Istoric.Text = "Istoric";
             this.Istoric.Click += new System.EventHandler(this.label1_Click);
@@ -49,9 +50,10 @@ namespace Atestat
             // Quiz
             // 
             this.Quiz.AutoSize = true;
-            this.Quiz.Location = new System.Drawing.Point(28, 245);
+            this.Quiz.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Quiz.Location = new System.Drawing.Point(57, 9);
             this.Quiz.Name = "Quiz";
-            this.Quiz.Size = new System.Drawing.Size(28, 13);
+            this.Quiz.Size = new System.Drawing.Size(32, 15);
             this.Quiz.TabIndex = 9;
             this.Quiz.Text = "Quiz";
             this.Quiz.Click += new System.EventHandler(this.label2_Click);
@@ -59,9 +61,10 @@ namespace Atestat
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(69, 320);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(95, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 13);
+            this.label1.Size = new System.Drawing.Size(108, 15);
             this.label1.TabIndex = 10;
             this.label1.Text = "Jucători importanți";
             this.label1.Click += new System.EventHandler(this.label1_Click_1);
@@ -69,9 +72,10 @@ namespace Atestat
             // Sevilla86
             // 
             this.Sevilla86.AutoSize = true;
-            this.Sevilla86.Location = new System.Drawing.Point(89, 426);
+            this.Sevilla86.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Sevilla86.Location = new System.Drawing.Point(209, 9);
             this.Sevilla86.Name = "Sevilla86";
-            this.Sevilla86.Size = new System.Drawing.Size(50, 13);
+            this.Sevilla86.Size = new System.Drawing.Size(57, 15);
             this.Sevilla86.TabIndex = 11;
             this.Sevilla86.Text = "Sevilla86";
             this.Sevilla86.Click += new System.EventHandler(this.Sevilla86_Click_1);

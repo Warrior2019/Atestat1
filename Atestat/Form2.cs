@@ -22,7 +22,6 @@ namespace Atestat
 
         }
 
-
         private void label1_Click(object sender, EventArgs e)
         {
             Form F4 = new F4();

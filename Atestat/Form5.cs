@@ -31,7 +31,7 @@ namespace Atestat
         private void button1_Click(object sender, EventArgs e)
         {
             pb_Sevilla86.Visible = true;
-            Image image = Image.FromFile("Echipa_Sevilla86.jpg");
+            Image image = Image.FromFile("Steaua_Sevilla86.jpg");
             pb_Sevilla86.Image = image;
             Sevilla86.Visible = false;
         }

@@ -29,6 +29,7 @@ namespace Atestat
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F3));
             this.gb1 = new System.Windows.Forms.GroupBox();
             this.cb1 = new System.Windows.Forms.CheckBox();
             this.cb5 = new System.Windows.Forms.CheckBox();
@@ -45,17 +46,18 @@ namespace Atestat
             this.rb7 = new System.Windows.Forms.RadioButton();
             this.rb6 = new System.Windows.Forms.RadioButton();
             this.rb5 = new System.Windows.Forms.RadioButton();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.gb4 = new System.Windows.Forms.GroupBox();
             this.rb12 = new System.Windows.Forms.RadioButton();
             this.rb11 = new System.Windows.Forms.RadioButton();
             this.rb10 = new System.Windows.Forms.RadioButton();
             this.rb9 = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.gb1.SuspendLayout();
             this.gb2.SuspendLayout();
             this.gb3.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.gb4.SuspendLayout();
             this.SuspendLayout();
             // 
             // gb1
@@ -72,6 +74,7 @@ namespace Atestat
             this.gb1.TabIndex = 0;
             this.gb1.TabStop = false;
             this.gb1.Text = "Cine a marcat cele două goluri de la Sevilla?";
+            this.gb1.Visible = false;
             // 
             // cb1
             // 
@@ -135,6 +138,7 @@ namespace Atestat
             this.gb2.TabIndex = 1;
             this.gb2.TabStop = false;
             this.gb2.Text = "Care este data fondării clubului?";
+            this.gb2.Visible = false;
             // 
             // rb4
             // 
@@ -192,6 +196,7 @@ namespace Atestat
             this.gb3.TabIndex = 2;
             this.gb3.TabStop = false;
             this.gb3.Text = "Pe ce stadion a jucat Steaua din 1974?";
+            this.gb3.Visible = false;
             // 
             // rb8
             // 
@@ -237,18 +242,19 @@ namespace Atestat
             this.rb5.Text = "23 august";
             this.rb5.UseVisualStyleBackColor = true;
             // 
-            // groupBox1
+            // gb4
             // 
-            this.groupBox1.Controls.Add(this.rb12);
-            this.groupBox1.Controls.Add(this.rb11);
-            this.groupBox1.Controls.Add(this.rb10);
-            this.groupBox1.Controls.Add(this.rb9);
-            this.groupBox1.Location = new System.Drawing.Point(516, 12);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(164, 167);
-            this.groupBox1.TabIndex = 4;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "În ce an a câștigat Steaua Cupa Campionilor Europeni?";
+            this.gb4.Controls.Add(this.rb12);
+            this.gb4.Controls.Add(this.rb11);
+            this.gb4.Controls.Add(this.rb10);
+            this.gb4.Controls.Add(this.rb9);
+            this.gb4.Location = new System.Drawing.Point(516, 12);
+            this.gb4.Name = "gb4";
+            this.gb4.Size = new System.Drawing.Size(164, 167);
+            this.gb4.TabIndex = 4;
+            this.gb4.TabStop = false;
+            this.gb4.Text = "În ce an a câștigat Steaua Cupa Campionilor Europeni?";
+            this.gb4.Visible = false;
             // 
             // rb12
             // 
@@ -302,27 +308,41 @@ namespace Atestat
             this.label1.Size = new System.Drawing.Size(32, 13);
             this.label1.TabIndex = 5;
             this.label1.Text = "Iesire";
+            this.label1.Visible = false;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // button1
+            // label2
             // 
-            this.button1.Location = new System.Drawing.Point(317, 255);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(175, 27);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Apasă pentru a vedea rezultatul";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(295, 428);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(157, 13);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "Apasă pentru a vedea rezultatul";
+            this.label2.Visible = false;
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(289, 198);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(135, 13);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Apasă aici pentru a începe";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // F3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(695, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.gb4);
             this.Controls.Add(this.gb3);
             this.Controls.Add(this.gb2);
             this.Controls.Add(this.gb1);
@@ -335,8 +355,8 @@ namespace Atestat
             this.gb2.PerformLayout();
             this.gb3.ResumeLayout(false);
             this.gb3.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.gb4.ResumeLayout(false);
+            this.gb4.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -359,13 +379,14 @@ namespace Atestat
         private System.Windows.Forms.RadioButton rb7;
         private System.Windows.Forms.RadioButton rb6;
         private System.Windows.Forms.RadioButton rb5;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox gb4;
         private System.Windows.Forms.RadioButton rb12;
         private System.Windows.Forms.RadioButton rb11;
         private System.Windows.Forms.RadioButton rb10;
         private System.Windows.Forms.RadioButton rb9;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.CheckBox cb1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
