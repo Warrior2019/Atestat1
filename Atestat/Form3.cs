@@ -25,6 +25,7 @@ namespace Atestat
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //asa
             if ((cb1.Checked && cb3.Checked)) cate++;
             if (rb2.Checked) cate++;
             if (rb7.Checked) cate++;
