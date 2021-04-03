@@ -30,31 +30,11 @@ namespace Atestat
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F2));
-            this.Istoric = new System.Windows.Forms.Button();
-            this.Quiz = new System.Windows.Forms.Button();
             this.Sevilla86 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.Istoric = new System.Windows.Forms.Label();
+            this.Quiz = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // Istoric
-            // 
-            this.Istoric.Location = new System.Drawing.Point(1, 1);
-            this.Istoric.Name = "Istoric";
-            this.Istoric.Size = new System.Drawing.Size(46, 24);
-            this.Istoric.TabIndex = 0;
-            this.Istoric.Text = "Istoric";
-            this.Istoric.UseVisualStyleBackColor = true;
-            this.Istoric.Click += new System.EventHandler(this.Istoric_Click);
-            // 
-            // Quiz
-            // 
-            this.Quiz.Location = new System.Drawing.Point(92, 359);
-            this.Quiz.Name = "Quiz";
-            this.Quiz.Size = new System.Drawing.Size(75, 39);
-            this.Quiz.TabIndex = 5;
-            this.Quiz.Text = "Quiz";
-            this.Quiz.UseVisualStyleBackColor = true;
-            this.Quiz.Click += new System.EventHandler(this.Quiz_Click);
             // 
             // Sevilla86
             // 
@@ -76,6 +56,26 @@ namespace Atestat
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // Istoric
+            // 
+            this.Istoric.AutoSize = true;
+            this.Istoric.Location = new System.Drawing.Point(89, 159);
+            this.Istoric.Name = "Istoric";
+            this.Istoric.Size = new System.Drawing.Size(35, 13);
+            this.Istoric.TabIndex = 8;
+            this.Istoric.Text = "Istoric";
+            this.Istoric.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // Quiz
+            // 
+            this.Quiz.AutoSize = true;
+            this.Quiz.Location = new System.Drawing.Point(28, 245);
+            this.Quiz.Name = "Quiz";
+            this.Quiz.Size = new System.Drawing.Size(28, 13);
+            this.Quiz.TabIndex = 9;
+            this.Quiz.Text = "Quiz";
+            this.Quiz.Click += new System.EventHandler(this.label2_Click);
+            // 
             // F2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -84,23 +84,23 @@ namespace Atestat
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(854, 559);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.Sevilla86);
             this.Controls.Add(this.Quiz);
             this.Controls.Add(this.Istoric);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Sevilla86);
             this.DoubleBuffered = true;
             this.Name = "F2";
             this.Text = "Fereastra2";
             this.Load += new System.EventHandler(this.F2_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button Istoric;
-        private System.Windows.Forms.Button Quiz;
         private System.Windows.Forms.Button Sevilla86;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label Istoric;
+        private System.Windows.Forms.Label Quiz;
     }
 }

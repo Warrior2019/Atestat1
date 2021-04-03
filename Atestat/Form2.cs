@@ -22,17 +22,9 @@ namespace Atestat
 
         }
 
-        private void Istoric_Click(object sender, EventArgs e)
-        {
-            Form F4 = new F4();
-            F4.Show();
-            //Istoric_text.LoadFile("Steaua Bucuresti.rtf");
-        }
-
         private void Quiz_Click(object sender, EventArgs e)
         {
-            Form F3 = new F3();
-            F3.Show();
+            
         }
 
         private void Sevilla86_Click(object sender, EventArgs e)
@@ -46,6 +38,18 @@ namespace Atestat
         {
             Form F6 = new F6();
             F6.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            Form F4 = new F4();
+            F4.Show();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Form F3 = new F3();
+            F3.Show();
         }
     }
 }
