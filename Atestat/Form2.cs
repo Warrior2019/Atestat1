@@ -22,23 +22,6 @@ namespace Atestat
 
         }
 
-        private void Quiz_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void Sevilla86_Click(object sender, EventArgs e)
-        {
-            Form F5 = new F5();
-            F5.Show();
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Form F6 = new F6();
-            F6.Show();
-        }
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -50,6 +33,18 @@ namespace Atestat
         {
             Form F3 = new F3();
             F3.Show();
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+            Form F6 = new F6();
+            F6.Show();
+        }
+
+        private void Sevilla86_Click_1(object sender, EventArgs e)
+        {
+            Form F5 = new F5();
+            F5.Show();
         }
     }
 }

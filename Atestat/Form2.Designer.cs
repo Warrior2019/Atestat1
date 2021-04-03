@@ -30,31 +30,11 @@ namespace Atestat
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F2));
-            this.Sevilla86 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.Istoric = new System.Windows.Forms.Label();
             this.Quiz = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.Sevilla86 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // Sevilla86
-            // 
-            this.Sevilla86.Location = new System.Drawing.Point(676, 331);
-            this.Sevilla86.Name = "Sevilla86";
-            this.Sevilla86.Size = new System.Drawing.Size(85, 39);
-            this.Sevilla86.TabIndex = 6;
-            this.Sevilla86.Text = "Sevilla86";
-            this.Sevilla86.UseVisualStyleBackColor = true;
-            this.Sevilla86.Click += new System.EventHandler(this.Sevilla86_Click);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(676, 133);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(85, 39);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Jucători importanți";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Istoric
             // 
@@ -76,6 +56,26 @@ namespace Atestat
             this.Quiz.Text = "Quiz";
             this.Quiz.Click += new System.EventHandler(this.label2_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(69, 320);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(92, 13);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "Jucători importanți";
+            this.label1.Click += new System.EventHandler(this.label1_Click_1);
+            // 
+            // Sevilla86
+            // 
+            this.Sevilla86.AutoSize = true;
+            this.Sevilla86.Location = new System.Drawing.Point(89, 426);
+            this.Sevilla86.Name = "Sevilla86";
+            this.Sevilla86.Size = new System.Drawing.Size(50, 13);
+            this.Sevilla86.TabIndex = 11;
+            this.Sevilla86.Text = "Sevilla86";
+            this.Sevilla86.Click += new System.EventHandler(this.Sevilla86_Click_1);
+            // 
             // F2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -84,10 +84,10 @@ namespace Atestat
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(854, 559);
+            this.Controls.Add(this.Sevilla86);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.Quiz);
             this.Controls.Add(this.Istoric);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.Sevilla86);
             this.DoubleBuffered = true;
             this.Name = "F2";
             this.Text = "Fereastra2";
@@ -98,9 +98,9 @@ namespace Atestat
         }
 
         #endregion
-        private System.Windows.Forms.Button Sevilla86;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label Istoric;
         private System.Windows.Forms.Label Quiz;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Sevilla86;
     }
 }
