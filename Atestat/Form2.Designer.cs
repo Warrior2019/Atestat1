@@ -34,6 +34,7 @@ namespace Atestat
             this.Quiz = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.Sevilla86 = new System.Windows.Forms.Label();
+            this.Ieșire = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Istoric
@@ -53,7 +54,7 @@ namespace Atestat
             this.Quiz.AutoSize = true;
             this.Quiz.BackColor = System.Drawing.Color.Transparent;
             this.Quiz.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Quiz.Location = new System.Drawing.Point(57, 9);
+            this.Quiz.Location = new System.Drawing.Point(233, 9);
             this.Quiz.Name = "Quiz";
             this.Quiz.Size = new System.Drawing.Size(32, 15);
             this.Quiz.TabIndex = 9;
@@ -65,7 +66,7 @@ namespace Atestat
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(95, 9);
+            this.label1.Location = new System.Drawing.Point(56, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(108, 15);
             this.label1.TabIndex = 10;
@@ -77,12 +78,24 @@ namespace Atestat
             this.Sevilla86.AutoSize = true;
             this.Sevilla86.BackColor = System.Drawing.Color.Transparent;
             this.Sevilla86.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Sevilla86.Location = new System.Drawing.Point(209, 9);
+            this.Sevilla86.Location = new System.Drawing.Point(170, 9);
             this.Sevilla86.Name = "Sevilla86";
             this.Sevilla86.Size = new System.Drawing.Size(57, 15);
             this.Sevilla86.TabIndex = 11;
             this.Sevilla86.Text = "Sevilla86";
             this.Sevilla86.Click += new System.EventHandler(this.Sevilla86_Click_1);
+            // 
+            // Ieșire
+            // 
+            this.Ieșire.AutoSize = true;
+            this.Ieșire.BackColor = System.Drawing.Color.Transparent;
+            this.Ieșire.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ieșire.Location = new System.Drawing.Point(805, 535);
+            this.Ieșire.Name = "Ieșire";
+            this.Ieșire.Size = new System.Drawing.Size(37, 15);
+            this.Ieșire.TabIndex = 12;
+            this.Ieșire.Text = "Ieșire";
+            this.Ieșire.Click += new System.EventHandler(this.Ieșire_Click);
             // 
             // F2
             // 
@@ -92,6 +105,7 @@ namespace Atestat
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(854, 559);
+            this.Controls.Add(this.Ieșire);
             this.Controls.Add(this.Sevilla86);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Quiz);
@@ -109,5 +123,6 @@ namespace Atestat
         private System.Windows.Forms.Label Quiz;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label Sevilla86;
+        private System.Windows.Forms.Label Ieșire;
     }
 }

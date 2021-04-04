@@ -44,6 +44,7 @@ namespace Atestat
             this.Istoric_text.Size = new System.Drawing.Size(776, 426);
             this.Istoric_text.TabIndex = 0;
             this.Istoric_text.Text = "";
+            this.Istoric_text.Visible = false;
             this.Istoric_text.TextChanged += new System.EventHandler(this.Istoric_text_TextChanged);
             // 
             // button1

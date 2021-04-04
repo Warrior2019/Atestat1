@@ -45,5 +45,10 @@ namespace Atestat
             Form F5 = new F5();
             F5.Show();
         }
+
+        private void Ieșire_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
