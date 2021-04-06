@@ -1,7 +1,7 @@
 ﻿
 namespace Atestat
 {
-    partial class Incepe
+    partial class F1
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Atestat
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Incepe));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F1));
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -43,7 +43,7 @@ namespace Atestat
             this.label2.TabIndex = 13;
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // Incepe
+            // F1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -53,7 +53,10 @@ namespace Atestat
             this.ClientSize = new System.Drawing.Size(318, 308);
             this.Controls.Add(this.label2);
             this.DoubleBuffered = true;
-            this.Name = "Incepe";
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "F1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Incepe_Load);
             this.ResumeLayout(false);
 

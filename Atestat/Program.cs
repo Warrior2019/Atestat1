@@ -16,7 +16,7 @@ namespace Atestat
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Incepe());
+            Application.Run(new F1());
         }
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Atestat
 {
-    public partial class Incepe : Form
+    public partial class F1 : Form
     {
-        public Incepe()
+        public F1()
         {
             InitializeComponent();
         }
