@@ -346,6 +346,7 @@ namespace Atestat
             this.Controls.Add(this.gb3);
             this.Controls.Add(this.gb2);
             this.Controls.Add(this.gb1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "F3";
             this.Text = "Quiz";
             this.Load += new System.EventHandler(this.F3_Load);

@@ -113,6 +113,7 @@ namespace Atestat
             this.Controls.Add(this.pb_Sevilla86);
             this.Controls.Add(this.Sevilla86);
             this.Controls.Add(this.button2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "F5";
             ((System.ComponentModel.ISupportInitialize)(this.pb_Sevilla86)).EndInit();
             this.ResumeLayout(false);

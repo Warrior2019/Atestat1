@@ -34,8 +34,8 @@ namespace Atestat
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.rtb = new System.Windows.Forms.RichTextBox();
-            this.pb = new System.Windows.Forms.PictureBox();
             this.button3 = new System.Windows.Forms.Button();
+            this.pb = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pb)).BeginInit();
             this.SuspendLayout();
             // 
@@ -92,15 +92,6 @@ namespace Atestat
             this.rtb.TabIndex = 5;
             this.rtb.Text = "";
             // 
-            // pb
-            // 
-            this.pb.Location = new System.Drawing.Point(445, 41);
-            this.pb.Name = "pb";
-            this.pb.Size = new System.Drawing.Size(343, 397);
-            this.pb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pb.TabIndex = 6;
-            this.pb.TabStop = false;
-            // 
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Viner Hand ITC", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -112,18 +103,28 @@ namespace Atestat
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // pb
+            // 
+            this.pb.Location = new System.Drawing.Point(432, 41);
+            this.pb.Name = "pb";
+            this.pb.Size = new System.Drawing.Size(356, 397);
+            this.pb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pb.TabIndex = 8;
+            this.pb.TabStop = false;
+            // 
             // F6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.pb);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.rtb);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "F6";
             ((System.ComponentModel.ISupportInitialize)(this.pb)).EndInit();
             this.ResumeLayout(false);
@@ -137,7 +138,7 @@ namespace Atestat
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.RichTextBox rtb;
-        private System.Windows.Forms.PictureBox pb;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.PictureBox pb;
     }
 }
