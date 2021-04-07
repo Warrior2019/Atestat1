@@ -46,7 +46,6 @@ namespace Atestat
             gb3.Visible = true;
             gb4.Visible = true;
             label2.Visible = true;
-            label1.Visible = true;
         }
     }
 }
