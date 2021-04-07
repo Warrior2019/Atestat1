@@ -347,6 +347,7 @@ namespace Atestat
             this.Controls.Add(this.gb1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "F3";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quiz";
             this.Load += new System.EventHandler(this.F3_Load);
             this.gb1.ResumeLayout(false);

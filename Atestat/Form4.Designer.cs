@@ -99,6 +99,7 @@ namespace Atestat
             this.Controls.Add(this.Istoric_text);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "F4";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Istoric";
             this.Load += new System.EventHandler(this.F4_Load);
             this.ResumeLayout(false);

@@ -115,6 +115,7 @@ namespace Atestat
             this.Controls.Add(this.button2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "F5";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.pb_Sevilla86)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
