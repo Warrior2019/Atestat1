@@ -40,7 +40,7 @@ namespace Atestat
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(163, 418);
+            this.button2.Location = new System.Drawing.Point(162, 418);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 20);
             this.button2.TabIndex = 1;
@@ -72,7 +72,7 @@ namespace Atestat
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(326, 418);
+            this.button1.Location = new System.Drawing.Point(324, 418);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 20);
             this.button1.TabIndex = 5;
@@ -83,7 +83,7 @@ namespace Atestat
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(489, 419);
+            this.button5.Location = new System.Drawing.Point(486, 419);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 6;

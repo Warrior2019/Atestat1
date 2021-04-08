@@ -324,7 +324,7 @@ namespace Atestat
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(289, 198);
+            this.label3.Location = new System.Drawing.Point(306, 428);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(135, 13);
             this.label3.TabIndex = 9;
