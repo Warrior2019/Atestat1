@@ -50,7 +50,7 @@ namespace Atestat
             this.Ieșire.AutoSize = true;
             this.Ieșire.BackColor = System.Drawing.Color.Transparent;
             this.Ieșire.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ieșire.Location = new System.Drawing.Point(805, 535);
+            this.Ieșire.Location = new System.Drawing.Point(805, 9);
             this.Ieșire.Name = "Ieșire";
             this.Ieșire.Size = new System.Drawing.Size(37, 15);
             this.Ieșire.TabIndex = 12;

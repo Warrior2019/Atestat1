@@ -29,13 +29,17 @@ namespace Atestat
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F5));
             this.button2 = new System.Windows.Forms.Button();
             this.Sevilla86 = new System.Windows.Forms.RichTextBox();
             this.pb_Sevilla86 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.Video = new AxWMPLib.AxWindowsMediaPlayer();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Sevilla86)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Video)).BeginInit();
             this.SuspendLayout();
             // 
             // button2
@@ -102,11 +106,33 @@ namespace Atestat
     "uș, Bălan, Blaint, Bărbulescu\r\n";
             this.label1.Visible = false;
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(617, 419);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 8;
+            this.button3.Text = "Penalty-urile";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // Video
+            // 
+            this.Video.Enabled = true;
+            this.Video.Location = new System.Drawing.Point(12, 12);
+            this.Video.Name = "Video";
+            this.Video.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Video.OcxState")));
+            this.Video.Size = new System.Drawing.Size(776, 399);
+            this.Video.TabIndex = 9;
+            this.Video.Visible = false;
+            // 
             // F5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Video);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button1);
@@ -117,6 +143,7 @@ namespace Atestat
             this.Name = "F5";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.pb_Sevilla86)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Video)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -129,5 +156,7 @@ namespace Atestat
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button3;
+        private AxWMPLib.AxWindowsMediaPlayer Video;
     }
 }
