@@ -18,10 +18,6 @@ namespace Atestat
             InitializeComponent();
         }
 
-        private const int WS_CHILD = 0x40000000;
-        private const int WS_CLIPCHILDREN = 0x2000000;
-        private IMediaControl mc=null;
-        private IVideoWindow videoWindow = null;
         private void button2_Click(object sender, EventArgs e)
         {
             label1.Visible = false;
