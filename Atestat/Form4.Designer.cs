@@ -38,6 +38,7 @@ namespace Atestat
             // 
             // Istoric_text
             // 
+            this.Istoric_text.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.Istoric_text.Location = new System.Drawing.Point(12, 12);
             this.Istoric_text.Name = "Istoric_text";
             this.Istoric_text.ReadOnly = true;

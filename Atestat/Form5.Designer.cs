@@ -54,6 +54,7 @@ namespace Atestat
             // 
             // Sevilla86
             // 
+            this.Sevilla86.BackColor = System.Drawing.SystemColors.Highlight;
             this.Sevilla86.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.Sevilla86.Location = new System.Drawing.Point(12, 12);
             this.Sevilla86.Name = "Sevilla86";
