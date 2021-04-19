@@ -29,6 +29,7 @@ namespace Atestat
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F4));
             this.Istoric_text = new System.Windows.Forms.RichTextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -50,6 +51,7 @@ namespace Atestat
             // 
             // button1
             // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Location = new System.Drawing.Point(148, 444);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(103, 23);
@@ -60,6 +62,7 @@ namespace Atestat
             // 
             // button2
             // 
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Location = new System.Drawing.Point(444, 444);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(103, 23);
@@ -70,6 +73,7 @@ namespace Atestat
             // 
             // button3
             // 
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Location = new System.Drawing.Point(592, 444);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(103, 23);
@@ -80,6 +84,7 @@ namespace Atestat
             // 
             // button4
             // 
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.Location = new System.Drawing.Point(296, 444);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(103, 23);
@@ -92,6 +97,8 @@ namespace Atestat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(800, 474);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);

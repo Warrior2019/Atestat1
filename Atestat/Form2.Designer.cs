@@ -49,6 +49,7 @@ namespace Atestat
             // 
             this.Ieșire.AutoSize = true;
             this.Ieșire.BackColor = System.Drawing.Color.Transparent;
+            this.Ieșire.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Ieșire.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Ieșire.Location = new System.Drawing.Point(805, 9);
             this.Ieșire.Name = "Ieșire";
@@ -60,6 +61,7 @@ namespace Atestat
             // pb1
             // 
             this.pb1.BackColor = System.Drawing.Color.Transparent;
+            this.pb1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb1.ErrorImage = null;
             this.pb1.Image = ((System.Drawing.Image)(resources.GetObject("pb1.Image")));
             this.pb1.ImageLocation = "";
@@ -75,6 +77,7 @@ namespace Atestat
             // pb2
             // 
             this.pb2.BackColor = System.Drawing.Color.Transparent;
+            this.pb2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb2.ErrorImage = null;
             this.pb2.Image = ((System.Drawing.Image)(resources.GetObject("pb2.Image")));
             this.pb2.ImageLocation = "";
@@ -90,6 +93,7 @@ namespace Atestat
             // pb3
             // 
             this.pb3.BackColor = System.Drawing.Color.Transparent;
+            this.pb3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb3.ErrorImage = null;
             this.pb3.Image = ((System.Drawing.Image)(resources.GetObject("pb3.Image")));
             this.pb3.ImageLocation = "";
@@ -105,6 +109,7 @@ namespace Atestat
             // pb4
             // 
             this.pb4.BackColor = System.Drawing.Color.Transparent;
+            this.pb4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb4.ErrorImage = null;
             this.pb4.Image = ((System.Drawing.Image)(resources.GetObject("pb4.Image")));
             this.pb4.ImageLocation = "";

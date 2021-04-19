@@ -44,6 +44,7 @@ namespace Atestat
             // 
             // button2
             // 
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Location = new System.Drawing.Point(162, 418);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 20);
@@ -77,6 +78,7 @@ namespace Atestat
             // 
             // button1
             // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Location = new System.Drawing.Point(324, 418);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 20);
@@ -87,6 +89,7 @@ namespace Atestat
             // 
             // button5
             // 
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.Location = new System.Drawing.Point(634, 418);
             this.button5.Name = "button5";
@@ -109,6 +112,7 @@ namespace Atestat
             // 
             // button3
             // 
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Location = new System.Drawing.Point(489, 418);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 19);
@@ -131,6 +135,7 @@ namespace Atestat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Video);
             this.Controls.Add(this.button3);

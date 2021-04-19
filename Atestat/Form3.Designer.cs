@@ -303,6 +303,7 @@ namespace Atestat
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label1.Location = new System.Drawing.Point(648, 428);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(32, 13);
@@ -313,6 +314,7 @@ namespace Atestat
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label2.Location = new System.Drawing.Point(295, 428);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(157, 13);
@@ -324,6 +326,7 @@ namespace Atestat
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label3.Location = new System.Drawing.Point(306, 428);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(135, 13);
