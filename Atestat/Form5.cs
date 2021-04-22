@@ -45,6 +45,7 @@ namespace Atestat
 
         private void button5_Click(object sender, EventArgs e)
         {
+            Video.Ctlcontrols.stop();
             this.Close();
         }
 
