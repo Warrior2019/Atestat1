@@ -34,7 +34,8 @@ namespace Atestat
             if (rb2.Checked) cate++;
             if (rb7.Checked) cate++;
             if (rb11.Checked) cate++;
-            MessageBox.Show("Ai răsapuns corect la " + cate.ToString() + " întrebări");
+            if (cate==1) MessageBox.Show("Ai răsapuns corect la " + cate.ToString() + " întrebare");
+            else MessageBox.Show("Ai răsapuns corect la " + cate.ToString() + " întrebări");
             if (cate == 4) this.Close();
         }
 
